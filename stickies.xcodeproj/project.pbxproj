@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E771B322BA2D62B000B6363 /* stickiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E771B312BA2D62B000B6363 /* stickiesApp.swift */; };
+		2E771B342BA2D62B000B6363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E771B332BA2D62B000B6363 /* ContentView.swift */; };
+		2E771B362BA2D62E000B6363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E771B352BA2D62E000B6363 /* Assets.xcassets */; };
+		2E771B392BA2D62E000B6363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E771B382BA2D62E000B6363 /* Preview Assets.xcassets */; };
+		2E771B442BA2D62F000B6363 /* stickiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E771B432BA2D62F000B6363 /* stickiesTests.swift */; };
+		2E771B4E2BA2D62F000B6363 /* stickiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E771B4D2BA2D62F000B6363 /* stickiesUITests.swift */; };
+		2E771B502BA2D62F000B6363 /* stickiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E771B4F2BA2D62F000B6363 /* stickiesUITestsLaunchTests.swift */; };
+		2E771B632BA2D6E3000B6363 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E771B622BA2D6E3000B6363 /* WidgetKit.framework */; };
+		2E771B652BA2D6E3000B6363 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E771B642BA2D6E3000B6363 /* SwiftUI.framework */; };
+		2E771B712BA2D6E6000B6363 /* stickies widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2E771B602BA2D6E3000B6363 /* stickies widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E771B7B2BA2D70B000B6363 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E771B622BA2D6E3000B6363 /* WidgetKit.framework */; };
+		2E771B7C2BA2D70B000B6363 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E771B642BA2D6E3000B6363 /* SwiftUI.framework */; };
+		2E771B7F2BA2D70C000B6363 /* stickiesWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E771B7E2BA2D70C000B6363 /* stickiesWidgetBundle.swift */; };
+		2E771B812BA2D70C000B6363 /* stickiesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E771B802BA2D70C000B6363 /* stickiesWidget.swift */; };
+		2E771B832BA2D70E000B6363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E771B822BA2D70E000B6363 /* Assets.xcassets */; };
+		2E771B882BA2D70E000B6363 /* stickiesWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2E771B7A2BA2D70B000B6363 /* stickiesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E771B402BA2D62F000B6363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E771B262BA2D62B000B6363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E771B2D2BA2D62B000B6363;
+			remoteInfo = stickies;
+		};
+		2E771B4A2BA2D62F000B6363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E771B262BA2D62B000B6363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E771B2D2BA2D62B000B6363;
+			remoteInfo = stickies;
+		};
+		2E771B6F2BA2D6E6000B6363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E771B262BA2D62B000B6363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E771B5F2BA2D6E3000B6363;
+			remoteInfo = "stickies widgetExtension";
+		};
+		2E771B862BA2D70E000B6363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E771B262BA2D62B000B6363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E771B792BA2D70B000B6363;
+			remoteInfo = stickiesWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E771B752BA2D6E6000B6363 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2E771B712BA2D6E6000B6363 /* stickies widgetExtension.appex in Embed Foundation Extensions */,
+				2E771B882BA2D70E000B6363 /* stickiesWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E771B2E2BA2D62B000B6363 /* stickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E771B312BA2D62B000B6363 /* stickiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickiesApp.swift; sourceTree = "<group>"; };
+		2E771B332BA2D62B000B6363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E771B352BA2D62E000B6363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E771B382BA2D62E000B6363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E771B3A2BA2D62E000B6363 /* stickies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stickies.entitlements; sourceTree = "<group>"; };
+		2E771B3F2BA2D62F000B6363 /* stickiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E771B432BA2D62F000B6363 /* stickiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickiesTests.swift; sourceTree = "<group>"; };
+		2E771B492BA2D62F000B6363 /* stickiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E771B4D2BA2D62F000B6363 /* stickiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickiesUITests.swift; sourceTree = "<group>"; };
+		2E771B4F2BA2D62F000B6363 /* stickiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E771B602BA2D6E3000B6363 /* stickies widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "stickies widgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E771B622BA2D6E3000B6363 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2E771B642BA2D6E3000B6363 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2E771B7A2BA2D70B000B6363 /* stickiesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickiesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E771B7E2BA2D70C000B6363 /* stickiesWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickiesWidgetBundle.swift; sourceTree = "<group>"; };
+		2E771B802BA2D70C000B6363 /* stickiesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickiesWidget.swift; sourceTree = "<group>"; };
+		2E771B822BA2D70E000B6363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E771B842BA2D70E000B6363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E771B852BA2D70E000B6363 /* stickiesWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stickiesWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E771B2B2BA2D62B000B6363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B3C2BA2D62F000B6363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B462BA2D62F000B6363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B5D2BA2D6E3000B6363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B652BA2D6E3000B6363 /* SwiftUI.framework in Frameworks */,
+				2E771B632BA2D6E3000B6363 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B772BA2D70B000B6363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B7C2BA2D70B000B6363 /* SwiftUI.framework in Frameworks */,
+				2E771B7B2BA2D70B000B6363 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E771B252BA2D62B000B6363 = {
+			isa = PBXGroup;
+			children = (
+				2E771B302BA2D62B000B6363 /* stickies */,
+				2E771B422BA2D62F000B6363 /* stickiesTests */,
+				2E771B4C2BA2D62F000B6363 /* stickiesUITests */,
+				2E771B7D2BA2D70C000B6363 /* stickiesWidget */,
+				2E771B612BA2D6E3000B6363 /* Frameworks */,
+				2E771B2F2BA2D62B000B6363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E771B2F2BA2D62B000B6363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E771B2E2BA2D62B000B6363 /* stickies.app */,
+				2E771B3F2BA2D62F000B6363 /* stickiesTests.xctest */,
+				2E771B492BA2D62F000B6363 /* stickiesUITests.xctest */,
+				2E771B602BA2D6E3000B6363 /* stickies widgetExtension.appex */,
+				2E771B7A2BA2D70B000B6363 /* stickiesWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E771B302BA2D62B000B6363 /* stickies */ = {
+			isa = PBXGroup;
+			children = (
+				2E771B312BA2D62B000B6363 /* stickiesApp.swift */,
+				2E771B332BA2D62B000B6363 /* ContentView.swift */,
+				2E771B352BA2D62E000B6363 /* Assets.xcassets */,
+				2E771B3A2BA2D62E000B6363 /* stickies.entitlements */,
+				2E771B372BA2D62E000B6363 /* Preview Content */,
+			);
+			path = stickies;
+			sourceTree = "<group>";
+		};
+		2E771B372BA2D62E000B6363 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E771B382BA2D62E000B6363 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E771B422BA2D62F000B6363 /* stickiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E771B432BA2D62F000B6363 /* stickiesTests.swift */,
+			);
+			path = stickiesTests;
+			sourceTree = "<group>";
+		};
+		2E771B4C2BA2D62F000B6363 /* stickiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E771B4D2BA2D62F000B6363 /* stickiesUITests.swift */,
+				2E771B4F2BA2D62F000B6363 /* stickiesUITestsLaunchTests.swift */,
+			);
+			path = stickiesUITests;
+			sourceTree = "<group>";
+		};
+		2E771B612BA2D6E3000B6363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E771B622BA2D6E3000B6363 /* WidgetKit.framework */,
+				2E771B642BA2D6E3000B6363 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E771B7D2BA2D70C000B6363 /* stickiesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2E771B7E2BA2D70C000B6363 /* stickiesWidgetBundle.swift */,
+				2E771B802BA2D70C000B6363 /* stickiesWidget.swift */,
+				2E771B822BA2D70E000B6363 /* Assets.xcassets */,
+				2E771B842BA2D70E000B6363 /* Info.plist */,
+				2E771B852BA2D70E000B6363 /* stickiesWidget.entitlements */,
+			);
+			path = stickiesWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E771B2D2BA2D62B000B6363 /* stickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E771B532BA2D62F000B6363 /* Build configuration list for PBXNativeTarget "stickies" */;
+			buildPhases = (
+				2E771B2A2BA2D62B000B6363 /* Sources */,
+				2E771B2B2BA2D62B000B6363 /* Frameworks */,
+				2E771B2C2BA2D62B000B6363 /* Resources */,
+				2E771B752BA2D6E6000B6363 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E771B702BA2D6E6000B6363 /* PBXTargetDependency */,
+				2E771B872BA2D70E000B6363 /* PBXTargetDependency */,
+			);
+			name = stickies;
+			productName = stickies;
+			productReference = 2E771B2E2BA2D62B000B6363 /* stickies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E771B3E2BA2D62F000B6363 /* stickiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E771B562BA2D62F000B6363 /* Build configuration list for PBXNativeTarget "stickiesTests" */;
+			buildPhases = (
+				2E771B3B2BA2D62F000B6363 /* Sources */,
+				2E771B3C2BA2D62F000B6363 /* Frameworks */,
+				2E771B3D2BA2D62F000B6363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E771B412BA2D62F000B6363 /* PBXTargetDependency */,
+			);
+			name = stickiesTests;
+			productName = stickiesTests;
+			productReference = 2E771B3F2BA2D62F000B6363 /* stickiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E771B482BA2D62F000B6363 /* stickiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E771B592BA2D62F000B6363 /* Build configuration list for PBXNativeTarget "stickiesUITests" */;
+			buildPhases = (
+				2E771B452BA2D62F000B6363 /* Sources */,
+				2E771B462BA2D62F000B6363 /* Frameworks */,
+				2E771B472BA2D62F000B6363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E771B4B2BA2D62F000B6363 /* PBXTargetDependency */,
+			);
+			name = stickiesUITests;
+			productName = stickiesUITests;
+			productReference = 2E771B492BA2D62F000B6363 /* stickiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2E771B5F2BA2D6E3000B6363 /* stickies widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E771B722BA2D6E6000B6363 /* Build configuration list for PBXNativeTarget "stickies widgetExtension" */;
+			buildPhases = (
+				2E771B5C2BA2D6E3000B6363 /* Sources */,
+				2E771B5D2BA2D6E3000B6363 /* Frameworks */,
+				2E771B5E2BA2D6E3000B6363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stickies widgetExtension";
+			productName = "stickies widgetExtension";
+			productReference = 2E771B602BA2D6E3000B6363 /* stickies widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2E771B792BA2D70B000B6363 /* stickiesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E771B892BA2D70E000B6363 /* Build configuration list for PBXNativeTarget "stickiesWidgetExtension" */;
+			buildPhases = (
+				2E771B762BA2D70B000B6363 /* Sources */,
+				2E771B772BA2D70B000B6363 /* Frameworks */,
+				2E771B782BA2D70B000B6363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stickiesWidgetExtension;
+			productName = stickiesWidgetExtension;
+			productReference = 2E771B7A2BA2D70B000B6363 /* stickiesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E771B262BA2D62B000B6363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2E771B2D2BA2D62B000B6363 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2E771B3E2BA2D62F000B6363 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2E771B2D2BA2D62B000B6363;
+					};
+					2E771B482BA2D62F000B6363 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2E771B2D2BA2D62B000B6363;
+					};
+					2E771B5F2BA2D6E3000B6363 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2E771B792BA2D70B000B6363 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2E771B292BA2D62B000B6363 /* Build configuration list for PBXProject "stickies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E771B252BA2D62B000B6363;
+			productRefGroup = 2E771B2F2BA2D62B000B6363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E771B2D2BA2D62B000B6363 /* stickies */,
+				2E771B3E2BA2D62F000B6363 /* stickiesTests */,
+				2E771B482BA2D62F000B6363 /* stickiesUITests */,
+				2E771B5F2BA2D6E3000B6363 /* stickies widgetExtension */,
+				2E771B792BA2D70B000B6363 /* stickiesWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E771B2C2BA2D62B000B6363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B392BA2D62E000B6363 /* Preview Assets.xcassets in Resources */,
+				2E771B362BA2D62E000B6363 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B3D2BA2D62F000B6363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B472BA2D62F000B6363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B5E2BA2D6E3000B6363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B782BA2D70B000B6363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B832BA2D70E000B6363 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E771B2A2BA2D62B000B6363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B342BA2D62B000B6363 /* ContentView.swift in Sources */,
+				2E771B322BA2D62B000B6363 /* stickiesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B3B2BA2D62F000B6363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B442BA2D62F000B6363 /* stickiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B452BA2D62F000B6363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B502BA2D62F000B6363 /* stickiesUITestsLaunchTests.swift in Sources */,
+				2E771B4E2BA2D62F000B6363 /* stickiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B5C2BA2D6E3000B6363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E771B762BA2D70B000B6363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E771B812BA2D70C000B6363 /* stickiesWidget.swift in Sources */,
+				2E771B7F2BA2D70C000B6363 /* stickiesWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E771B412BA2D62F000B6363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E771B2D2BA2D62B000B6363 /* stickies */;
+			targetProxy = 2E771B402BA2D62F000B6363 /* PBXContainerItemProxy */;
+		};
+		2E771B4B2BA2D62F000B6363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E771B2D2BA2D62B000B6363 /* stickies */;
+			targetProxy = 2E771B4A2BA2D62F000B6363 /* PBXContainerItemProxy */;
+		};
+		2E771B702BA2D6E6000B6363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E771B5F2BA2D6E3000B6363 /* stickies widgetExtension */;
+			targetProxy = 2E771B6F2BA2D6E6000B6363 /* PBXContainerItemProxy */;
+		};
+		2E771B872BA2D70E000B6363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E771B792BA2D70B000B6363 /* stickiesWidgetExtension */;
+			targetProxy = 2E771B862BA2D70E000B6363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E771B512BA2D62F000B6363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E771B522BA2D62F000B6363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2E771B542BA2D62F000B6363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stickies/stickies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stickies/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2E771B552BA2D62F000B6363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stickies/stickies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stickies/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2E771B572BA2D62F000B6363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stickies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stickies";
+			};
+			name = Debug;
+		};
+		2E771B582BA2D62F000B6363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stickies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stickies";
+			};
+			name = Release;
+		};
+		2E771B5A2BA2D62F000B6363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = stickies;
+			};
+			name = Debug;
+		};
+		2E771B5B2BA2D62F000B6363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = stickies;
+			};
+			name = Release;
+		};
+		2E771B732BA2D6E6000B6363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "stickies widget/stickies_widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "stickies widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "stickies widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gmmrr.stickies.stickies-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2E771B742BA2D6E6000B6363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "stickies widget/stickies_widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "stickies widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "stickies widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gmmrr.stickies.stickies-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2E771B8A2BA2D70E000B6363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = stickiesWidget/stickiesWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stickiesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = stickiesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickies.stickiesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2E771B8B2BA2D70E000B6363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = stickiesWidget/stickiesWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWNA7MN8NY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stickiesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = stickiesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmmrr.stickies.stickiesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E771B292BA2D62B000B6363 /* Build configuration list for PBXProject "stickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E771B512BA2D62F000B6363 /* Debug */,
+				2E771B522BA2D62F000B6363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E771B532BA2D62F000B6363 /* Build configuration list for PBXNativeTarget "stickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E771B542BA2D62F000B6363 /* Debug */,
+				2E771B552BA2D62F000B6363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E771B562BA2D62F000B6363 /* Build configuration list for PBXNativeTarget "stickiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E771B572BA2D62F000B6363 /* Debug */,
+				2E771B582BA2D62F000B6363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E771B592BA2D62F000B6363 /* Build configuration list for PBXNativeTarget "stickiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E771B5A2BA2D62F000B6363 /* Debug */,
+				2E771B5B2BA2D62F000B6363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E771B722BA2D6E6000B6363 /* Build configuration list for PBXNativeTarget "stickies widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E771B732BA2D6E6000B6363 /* Debug */,
+				2E771B742BA2D6E6000B6363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E771B892BA2D70E000B6363 /* Build configuration list for PBXNativeTarget "stickiesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E771B8A2BA2D70E000B6363 /* Debug */,
+				2E771B8B2BA2D70E000B6363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E771B262BA2D62B000B6363 /* Project object */;
+}
